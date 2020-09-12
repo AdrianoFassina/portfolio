@@ -23,7 +23,7 @@ body{
 header{
     background: url(../img/bannerprin.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: cover;
     max-height: 600px;
 
 }
@@ -48,6 +48,16 @@ header .contenedor-texto{
     display: flex;
     justify-content: center;
     margin: 190px 0;
+}
+header .contenedor-texto:hover{
+    transition: lowercase 3s;
+    -webkit-transition: lowercase 3s;
+    -moz-transition: lowercase 3s;
+    -ms-transition: lowercase 3s;
+    -o-transition: lowercase 3s;
+}
+header .contenedor-texto .texto:hover{
+   text-transform: lowercase;
 }
 header .contenedor-texto .texto{
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -168,6 +178,7 @@ header .contenedor-texto .texto .profesion{
     -o-border-radius: 3px;
 
 }
+
 
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion{
