@@ -197,7 +197,13 @@ header .contenedor-texto .texto .profesion{
     color: #636363;
 }
 
-
+.bannersecu{
+    width: 100%;
+    
+}
+.bannersecu img{
+    width: 100%;
+}
 /*-----FOOTER-----*/
 
 footer .contacto{
