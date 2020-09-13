@@ -199,11 +199,14 @@ header .contenedor-texto .texto .profesion{
 
 .bannersecu{
     width: 100%;
+    margin: 0 0 200px 0;
     
 }
 .bannersecu img{
     width: 100%;
+
 }
+
 /*-----FOOTER-----*/
 
 footer .contacto{
