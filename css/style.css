@@ -112,7 +112,7 @@ header .contenedor-texto .texto .profesion{
 
 }
 .main .acerca-de .texto{
-    color: #5a5a5a;
+    color: #26345C;
     font-weight: 600;
     font-size: 1em;
     line-height: 30px;
@@ -125,7 +125,7 @@ header .contenedor-texto .texto .profesion{
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 600;
-    color: #dd820d;
+    color: #26345C;
     text-align: center;
 }
 .main .acerca-de .texto .bold{
@@ -207,6 +207,52 @@ header .contenedor-texto .texto .profesion{
 
 }
 
+/*-----OWL CARROUSEL-----*/
+.texto{
+    color: #26345C;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 100px auto 60px auto;
+    padding-top: 80px;
+    
+
+}
+.texto .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #26345C;
+    text-align: center;
+}
+.texto .bold{
+    color: #3895ea;
+    text-decoration: underline;
+
+}
+
+#owl-demo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    display: flex;
+    
+}
+
+#owl-demo .item{    
+    margin: 3px;  
+    width: 100%;
+    height: auto;
+  }
+  #owl-demo .item img{
+      width: 40%;
+  } 
+
+ 
+ 
 /*-----FOOTER-----*/
 
 footer .contacto{
@@ -223,7 +269,7 @@ footer .contacto{
     line-height: 34px;
     margin-bottom: 40px;
     font-weight: 600;
-    color: #3895ea  ;
+    color: #26345C ;
     text-align: center;
 
  }
@@ -274,7 +320,7 @@ footer .contacto .formulario textarea{
 
 footer .contacto .formulario .boton{
     margin: auto;
-    background: #3895ea;
+    background: #26345C;
     color: #fff;
     border: none;
     border-radius: 3px;
