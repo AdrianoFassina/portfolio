@@ -208,6 +208,11 @@ header .contenedor-texto .texto .profesion{
 }
 
 /*-----OWL CARROUSEL-----*/
+.tools{
+    background:rgb(245, 248, 253);
+    height: 30vh;
+    
+}
 .texto{
     color: #26345C;
     font-weight: 600;
