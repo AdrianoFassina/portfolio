@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+</head>
+<body>
+    <script>
+        
+        const quienSoy = {
+            nombre: "Adriano",
+            apellido: "Fassina",
+            edad: "35",
+            nacimiento: "1985-06-30",
+            casado: true,
+            estatura: 1.85,
+            hijos: "2",
+            club: "River Plate",
+            deporte: ["Kick Boxing", "Boxeo", "Bjj", "Natación"],
+            música: ["Rock", "Electronica"],
+            comidaFav: [
+                {
+                    carne:true,
+                    pescado: true,
+                    cerdo: true,
+                    ensalada:true,
+                    fruta: true,
+                    pasta:["Agnolottis", "Ravioles", "Canelones"],
+
+                }
+              
+            ]
+         
+
+        } 
+            document.write(
+            `<h1 style="color:blue">${quienSoy.nombre} ${quienSoy.apellido}</h1>`);
+            document.write(`
+            Edad: ${quienSoy.edad} <br> Fecha Nacimiento: ${quienSoy.nacimiento} <br>`); 
+      
+            document.write(` Estado Civil: ${quienSoy.casado} <br>`);
+            document.write(` Equipo Fútbol: ${quienSoy.club} <br>` );
+            document.write(`Deportes: ${quienSoy.deporte} `)
+
+        
+    
+
+    </script>
+</body>
+</html>
