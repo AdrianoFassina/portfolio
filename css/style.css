@@ -208,6 +208,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 /*-----OWL CARROUSEL-----*/
+
 .tools{
     background:rgb(245, 248, 253);
     height: 30vh;
@@ -243,7 +244,7 @@ header .contenedor-texto .texto .profesion{
     justify-content: center;
     align-items: flex-start;
     height: 30vh;
-    display: flex;
+   
     
 }
 

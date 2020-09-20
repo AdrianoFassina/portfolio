@@ -17,23 +17,20 @@
             estatura: 1.85,
             hijos: "2",
             club: "River Plate",
-            deporte: ["Kick Boxing", "Boxeo", "Bjj", "Natación"],
-            música: ["Rock", "Electronica"],
-            comidaFav: [
-                {
-                    carne:true,
-                    pescado: true,
-                    cerdo: true,
-                    ensalada:true,
-                    fruta: true,
-                    pasta:["Agnolottis", "Ravioles", "Canelones"],
+            musica: [
+              "Rock","Electronica",
+            ]  
+        
+        } ;
+            
+             var deporte = [
+                {nombre:"Kick Boxing"}, 
+                {nombre: "Boxeo"},
+                {nombre:"Bjj"},
+                {nombre:"Natacion"}];
 
-                }
-              
-            ]
-         
-
-        } 
+        
+      
             document.write(
             `<h1 style="color:blue">${quienSoy.nombre} ${quienSoy.apellido}</h1>`);
             document.write(`
@@ -41,8 +38,14 @@
       
             document.write(` Estado Civil: ${quienSoy.casado} <br>`);
             document.write(` Equipo Fútbol: ${quienSoy.club} <br>` );
-            document.write(`Deportes: ${quienSoy.deporte} `)
-
+            document.write (`Deportes: <br>`);        
+            for (let i = 0; i < deporte.length; i++) {        
+            
+            document.write (deporte[i].nombre);
+            document.write (`<br>`)     
+        }
+        document.write (`Música favorita: ${quienSoy.musica}`)   
+         
         
     
 
